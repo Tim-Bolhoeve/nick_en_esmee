@@ -63,7 +63,7 @@ section .card,
   }
 }
 
-/* HERO */
+/* HOME */
 
 section.hero {
   padding-top: 72px;
@@ -79,9 +79,9 @@ section.hero {
   }
 }
 
-/* SERVICES */
+/* FOTOS */
 
-section.services i {
+section.fotos i {
   font-size: 2rem;
   margin: 1rem auto 0;
   border: 2px solid #000000;
@@ -98,51 +98,51 @@ section .card {
   max-width: 22rem;
   margin-inline: auto;
 }
-/* ABOUT */
+/* PROGRAMMA */
 @media screen and (min-width: 1024px) {
-  section.about .container,
-  section.testimonials .container {
+  section.programma .container,
+  section.cadeaulijst .container {
     width: 60%;
   }
 }
 
-/* PROJECTS */
-section.projects .card {
-  max-width: 17rem;
-  text-align: left;
+/* LOCATIE */
+section.locatie .card {
+  max-width: 22rem;
+  text-align: center;
 }
-section.projects .card img {
+section.locatie .card img {
   max-width: 70%;
   margin: 1rem auto;
 }
 
-/* TESTIMONIALS */
+/* CADEAULIJST */
 
-section.testimonials .carousel-control-prev,
+section.cadeaulijst .carousel-control-prev,
 .carousel-control-next {
   width: 5%;
 }
 
-section.testimonials .carousel-item p {
+section.cadeaulijst .carousel-item p {
   max-width: 80%;
   border-left: 5px solid var(--accent-color);
   padding-left: 1rem;
   text-align: left;
 }
-section.testimonials .carousel-item h5 {
+section.cadeaulijst .carousel-item h5 {
   text-align: left;
 }
-section.testimonials .carousel-item {
+section.cadeaulijst .carousel-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-section.testimonials .carousel.carousel-fade .carousel-item {
+section.cadeaulijst .carousel.carousel-fade .carousel-item {
   transition: opacity 0.5s;
 }
-/* CONTACT */
-section.contact .social-media a {
+/* VRAGEN */
+section.vragen .social-media a {
   padding: 0 0.5rem;
   font-size: 1.3rem;
 }
